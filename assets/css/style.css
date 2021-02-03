@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    padding-top: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+header{
+    background-color: #212020;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #212020;
+    padding: 15px 15px;
+}
+.nav-contact ul p,li{
+    display: inline-block;
+}
+.nav-contact p,a{
+    color: white;
+}
+.nav-contact ul,p{
+    margin: 0;
+}
